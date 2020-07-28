@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="310dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="306dp">
+
+        <TextView
+            android:id="@+id/usernamemodel"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_above="@+id/userallphotos"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:autoText="false"
+            android:paddingLeft="15dp"
+            android:text="preyash"
+            android:textColor="#222"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_alignRight="@+id/linearLayout"
+            android:layout_alignEnd="@+id/linearLayout" />
+
+        <ImageView
+            android:id="@+id/userallphotos"
+            android:layout_width="350dp"
+
+            android:layout_height="220dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/userallphotos">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:paddingBottom="1.5dp"
+                app:srcCompat="@drawable/first" />
+
+            <TextView
+                android:id="@+id/likecount"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.24"
+                android:paddingTop="10dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/alluserphotosinglebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/userallphotos"
+            android:layout_alignEnd="@+id/userallphotos"
+            android:layout_alignRight="@+id/userallphotos"
+            android:layout_alignTop="@+id/usernamemodel"
+            android:layout_toRightOf="@+id/usernamemodel"
+            android:text="Button"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+
+
+
+
