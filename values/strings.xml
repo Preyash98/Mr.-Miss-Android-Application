@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="app_name">Mr&amp;Miss</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">About</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="sign_out_button_text"/>
+    <string name="show_feed_button_text"/>
+    <string name="title_activity_tabbed">Welcome to Mr&amp;Miss</string>
+    <string name="log_in">Log In</string>
+    <string name="username">Email</string>
+    <string name="password">password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="new_to_app_create_account_simply">New to app? create account simply.</string>
+    <string name="here">here</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="btn_link_to_register">
+<![CDATA[
+Not a member? Get registered in Mr&Miss now!
+]]>
+</string>
+    <string name="search_hint">search by username.</string>
+    <string name="upload">Upload</string>
+    <string name="photo">Photo</string>
+    <string name="enter_your_username">Enter your Username</string>
+    <string name="sign_in_here">Sign in Here</string>
+    <string name="already_sign_up">Already Sign Up??</string>
+</resources>
